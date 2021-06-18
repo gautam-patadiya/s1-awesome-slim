@@ -1,0 +1,15 @@
+.badge.with-icon {
+    position: relative;
+    padding: 0;
+
+    .badge-icon {
+        padding: 0.25em 0.2em 0.25em 0.3em;
+        display: inline-block;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .badge-content {
+        padding: 0.25em 0.4em 0.25em 0.2em;
+        display: inline-block;
+    }
+}

@@ -1,0 +1,85 @@
+//https://codepen.io/migli/pen/QaGNVp
+
+$la-font-path: 'fonts/line-awesome/fonts' !default;
+$grid-gutter-width: 1.5rem; // bootstrap
+$sidebar-default-width: 16rem;
+$sidebar-mini-width: 5rem;
+$sidebar-mini-icon-size: 1.8rem;
+$sidebar-brand-font-size: 25px;
+$body-fonts: 'Maven Pro', sans-serif;
+$heading-fonts: 'Lato', sans-serif;
+$body-font-size: 16px;
+
+$white: #fff !default;
+$black: #000 !default;
+$blue: #3459e6 !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #da292e !default;
+$orange: #FF7F00 !default;
+$yellow: #faad15 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$gray: #BAB1AD !default;
+$cyan: #287bb5 !default;
+
+// gray shades
+$gray_t1: #98989c;
+$gray_t2: #7d7d83;
+$gray_t3: #e8e8e9;
+$gray_t4: #f5f5f5;
+$gray_t5: #5a5a5e;
+$gray_t6: #76767b;
+$gray_t7: #85858a;
+$gray_t8: #414144;
+$gray_t9: #f0f0f0;
+
+// bootstrap colors
+$primary: $blue !default;
+$secondary: $gray_t5 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray_t9 !default;
+$dark: $gray_t8 !default;
+
+$black-1: rgb(33, 33, 33);
+$black-2: rgb(0, 0, 0);
+
+$color-variants: (
+    100: -10%,
+    200: -25%,
+    300: -50%,
+    400: -75%,
+    500: 100%,
+    600: 75%,
+    700: 50%,
+    800: 25%,
+    900: 15%
+);
+
+$colors: () !default;
+$colors: map-merge((
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray,
+), $colors);
+
+//  Add color variants to $colors
+@each $color-name, $color in $colors {
+    @each $variant-name, $percent in $color-variants {
+        $mix-color: if($percent < 0%, white, black);
+        $colors: map-merge($colors, ($color-name+'-'+$variant-name: mix($color, $mix-color, abs($percent))));
+    }
+}

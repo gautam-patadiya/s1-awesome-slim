@@ -1,0 +1,46 @@
+{
+  "name": "s1-awesome-slim-html-admin-template",
+  "version": "1.0.0",
+  "description": "A light weight bootstrap html admin template",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "author": "Gautam Patadiya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gautam-patadiya/s1-awesome-slim-html-admin-template"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.5",
+    "jquery": "^3.5.1",
+    "malihu-custom-scrollbar-plugin": "^3.1.5",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "dotenv-webpack": "^2.0.0",
+    "exports-loader": "^1.1.0",
+    "fast-glob": "^3.2.4",
+    "imports-loader": "^2.0.0",
+    "jquery-mousewheel": "^3.1.13",
+    "lodash": "^4.17.20",
+    "mime-types": "^2.1.27",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^10",
+    "sharp": "^0.26.0",
+    "tar": "^6.0.5",
+    "trash": "^6.1.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

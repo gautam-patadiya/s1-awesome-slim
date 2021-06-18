@@ -1,0 +1,119 @@
+@import "variables";
+@import "s-colors";
+@import "fonts";
+@import "~animate.css/animate.min.css";
+@import "~bootstrap/scss/bootstrap";
+@import "~malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css";
+@import "common";
+@import "s-sidebars";
+@import "s-topbars";
+@import "s-breadcrumb";
+@import "s-widgets";
+@import "s-tables";
+@import "s-cards";
+@import "s-tabs";
+@import "s-wizard";
+@import "s-buttons";
+@import "s-alerts";
+@import "s-public";
+@import "s-badges";
+@import "s-modals";
+@import "default-theme";
+@import "responsive";
+
+.mCSB_inside > .mCSB_container{ margin-right: 0px; }
+
+.page-wrapper {
+    height: 100vh;
+
+    .page-content {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+.s-theme {
+    .sidebar-wrapper{
+        .sidebar-header,
+        .sidebar-menu {
+            padding-bottom: 80px;
+
+            ul li {
+                padding: 0;
+            }
+        }
+    }
+
+    &.toggled{
+        .sidebar-brand .logo-sm{
+            display: none;
+        }
+
+        .sidebar-wrapper.shaded{
+            box-shadow: 29px 0px 52px -9px rgba(187,187,187,0.46);
+            -webkit-box-shadow: 29px 0px 52px -9px rgba(187,187,187,0.46);
+            -moz-box-shadow: 29px 0px 52px -9px rgba(187,187,187,0.46);
+        }
+    }
+
+    &.mini{
+        .sidebar-brand .logo-lg{
+            display: none;
+        }
+
+        .sidebar-brand .logo-sm{
+            display: block;
+        }
+
+        .sidebar-wrapper.shaded{
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+        }
+    }
+}
+
+/*--------------- Middle Content ---------------*/
+.content{
+    @extend .p-4;
+
+    .content-title{
+        .title{
+            margin:0 0 13px 0;
+
+            h1, h2, h3, h4, h5, h6{
+                @extend .m-0;
+            }
+        }
+    }
+}
+
+$spaceamounts: (5, 10, 14, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100);
+@each $space in $spaceamounts {
+    ._h-#{$space} {
+        height: #{$space}px;
+    }
+
+    ._w-#{$space} {
+        width: #{$space}px;
+    }
+}
+
+.help-block,
+.input-group-text,
+.form-control,
+.btn{
+    font-size: .9rem;
+}
+
+.input-group-lg .input-group-text,
+.form-control-lg,
+.btn-lg{
+    font-size: 17px;
+}
+
+.input-group-sm .input-group-text,
+.form-control-sm,
+.btn-sm{
+    font-size: 12px;
+}

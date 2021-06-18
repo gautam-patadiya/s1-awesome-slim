@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Admin</title>
+    <link rel="stylesheet" href="./../dist/style.css"/>
+</head>
+<body class="s-theme mini">
+    <div id="page-wrapper" class="page-wrapper">
+        <!--## sidebar begins ##-->
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <h4>
+                        <a href="/" class="text-white">
+                            <span class="logo-text logo-lg">
+                                Awesome <strong>SLIM</strong>
+                            </span>
+                            <span class="logo-sm">
+                                A<strong>S</strong>M
+                            </span>
+                        </a>
+                    </h4>
+                    <div id="close-sidebar-sm"> <i class="las la-times"></i> </div>
+                </div><!--/.sidebar-brand-->
+                <div class="sidebar-menu">
+                    <ul class="master-ul">
+                        <li class="sidebar-dropdown">
+                            <a href="index.html">
+                                <i class="las la-tachometer-alt la-lg"></i>
+                                <span class="nav-text">Dashboard</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Dashboard</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-user-clock la-lg"></i>
+                                <span class="nav-text">Basic UI Elements</span>
+                                <span class="right-side-container">
+                                    <span class="nav-badge badge badge-success">3</span>
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Basic UI Elements</li>
+                                    <li><a href="cards.html">Cards</a></li>
+                                    <li><a href="modals.html">Modals</a></li>
+                                    <li><a href="badges.html">Badges</a></li>
+                                    <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                                    <li><a href="tabs.html">Tabs</a></li>
+                                    <li><a href="tooltips.html">Tooltip</a></li>
+                                    <li><a href="buttons.html">Buttons</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="widgets.html">
+                                <i class="las la-square-root-alt la-lg"></i>
+                                <span class="nav-text">Widgets</span>
+                                <span class="right-side-container">
+                                    <span class="nav-badge badge badge-light">New</span>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Widgets</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="notifications.html">
+                                <i class="las la-bell la-lg"></i>
+                                <span class="nav-text">Notifications</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Notifications</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="lab la-wpforms la-lg"></i>
+                                <span class="nav-text">Form Elements</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Form Elements</li>
+                                    <li><a href="form-basic.html">Basic </a></li>
+                                    <li><a href="form-wizard.html" class="active">Wizard </a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-border-all la-lg"></i>
+                                <span class="nav-text">Tables</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Tables</li>
+                                    <li><a href="basic-table.html" class="active">Basic Table</a></li>
+                                    <li><a href="datatable.html">Data Table</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-braille la-lg"></i>
+                                <span class="nav-text">User Pages</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">User Pages</li>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="login-2.html">Login 2</a></li>
+                                    <li><a href="register.html">Register</a></li>
+                                    <li><a href="404.html">404 Page</a></li>
+                                    <li><a href="500.html">500 Page</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-retweet la-lg"></i>
+                                <span class="nav-text">Nested</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Nested</li>
+                                    <li><a href="#">Menu 1</a></li>
+                                    <li class="nested-dropdown" >
+                                        <a href="#">
+                                            Nested Menu
+                                            <span class="right-side-container">
+                                                <i class="las la-angle-right"></i>
+                                            </span>
+                                        </a>
+                                        <div class="nested-menu">
+                                            <ul>
+                                                <li><a href="#">Menu 2.1</a></li>
+                                                <li><a href="#">Menu 2.2</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown active">
+                            <a href="colors.html">
+                                <i class="las la-random la-lg"></i>
+                                <span class="nav-text">Color</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Color</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="crud.html">
+                                <i class="las la-smile la-lg"></i>
+                                <span class="nav-text">CRUD Example</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">CRUD Example</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!--/.sidebar-menu-->
+                <div class="sidebar-footer text-white">
+                    <div class="copyright">Copyright © 2021 <strong>AW SLIM</strong> All rights reserved.</div>
+                </div><!--/.sidebar-footer-->
+            </div><!--/.sidebar-content-->
+        </nav><!--/.sidebar-wrapper-->
+        <!--## sidebar ends ##-->
+
+        <!--## page-content starts ##-->
+        <main class="page-content">
+            <!--## header begins ##-->
+            <header>
+                <!--Left-->
+                <nav class="navbar navbar-expand navbar-light p-0">
+                    <div class="sidebar-brand d-md-none"> <a href="#"><img src="images/logo.png" alt=""> </a> </div>
+                    <div class="sidebar-control">
+                        <a href="#" class="sidebar-toggler" id="close-sidebar"><span></span><span></span><span></span></a>
+                        <a href="#" class="sidebar-toggler" id="show-sidebar"><span></span><span></span><span></span></a>
+                    </div>
+
+                    <!-- Search Desktop -->
+                    <form class="d-none d-md-inline-block form-inline mr-auto search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <div class="input-group-append">
+                                <button class="btn" type="button"> <i class="las la-search"></i> </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Search Mobile -->
+                        <li class="nav-item dropdown d-md-none search-sm">
+                            <a class="nav-link px-1 dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <i class="las la-search"></i>
+                            </a>
+                            <!-- Dropdown - Search -->
+                            <div class="dropdown-menu p-2 dropdown-menu-right shadow" aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button"> <i class="las la-search"></i> </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link px-1 dropdown-toggle" href="#" id="langDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                EN
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right animate__animated animate__flipInX" aria-labelledby="langDropdown">
+                                <a class="dropdown-item" href="#">
+                                    English
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Hindi
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    French
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item profile dropdown">
+                            <a class="nav-link px-1 dropdown-toggle" href="#" id="profileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle" src="https://randomuser.me/api/portraits/men/4.jpg" alt="" width="40" />
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right animate__animated animate__flipInX" aria-labelledby="profileDropdown">
+                                <p>Hello, Tom Jones</p>
+                                <p>Billing Plan :<span>3 minutes ago</span></p>
+                                <p>Role : <span>Admin</span></p>
+                                <div class="dropdown-divider my-3"></div>
+                                <p>Email : <span>demo@sellpixels.com</span></p>
+                                <p>Phone : <span>+91 74058 39386</span></p>
+                                <div class="dropdown-divider mt-3"></div>
+                                <a class="dropdown-item" href="#"><i class="las la-user "></i> Profile </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"> <i class="las la-sign-out-alt"></i>Logout </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header><!--/header-->
+            <!--## header ends ##-->
+
+            <!--## content begins ##-->
+            <div class="content">
+                <!-- Title -->
+                <div class="content-title">
+                    <div class="row flex-row-reverse">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 align-self-center">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb style-1">
+                                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                    <li class="breadcrumb-item active">Colors</li>
+                                </ol>
+                            </nav>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 align-self-center tit1le">
+                            <h3 class="font-size-26">Colors</h3>
+                            <p class="text-gray-800 p-0 m-0">So many variants</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--## start ##-->
+                <div class="row mt-3">
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Indigo Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-indigo-100 text-center"><code class="text-dark">.bg-indigo-100</code></div>
+                                        <div class="bg-indigo-200 text-center"><code class="text-dark">.bg-indigo-200</code></div>
+                                        <div class="bg-indigo-300 text-center"><code class="text-dark">.bg-indigo-300</code></div>
+                                        <div class="bg-indigo-400 text-center"><code class="text-white">.bg-indigo-400</code></div>
+                                        <div class="bg-indigo-500 text-center"><code class="text-white">.bg-indigo-500</code></div>
+                                        <div class="bg-indigo-600 text-center"><code class="text-white">.bg-indigo-600</code></div>
+                                        <div class="bg-indigo-700 text-center"><code class="text-white">.bg-indigo-700</code></div>
+                                        <div class="bg-indigo-800 text-center"><code class="text-white">.bg-indigo-800</code></div>
+                                        <div class="bg-indigo-900 text-center"><code class="text-white">.bg-indigo-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-indigo-100">.text-indigo-100</div>
+                                        <div class="text-center text-indigo-200">.text-indigo-200</div>
+                                        <div class="text-center text-indigo-300">.text-indigo-300</div>
+                                        <div class="text-center text-indigo-400">.text-indigo-400</div>
+                                        <div class="text-center text-indigo-500">.text-indigo-500</div>
+                                        <div class="text-center text-indigo-600">.text-indigo-600</div>
+                                        <div class="text-center text-indigo-700">.text-indigo-700</div>
+                                        <div class="text-center text-indigo-800">.text-indigo-800</div>
+                                        <div class="text-center text-indigo-900">.text-indigo-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Purple Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-purple-100 text-center"><code class="text-dark">.bg-purple-100</code></div>
+                                        <div class="bg-purple-200 text-center"><code class="text-dark">.bg-purple-200</code></div>
+                                        <div class="bg-purple-300 text-center"><code class="text-dark">.bg-purple-300</code></div>
+                                        <div class="bg-purple-400 text-center"><code class="text-white">.bg-purple-400</code></div>
+                                        <div class="bg-purple-500 text-center"><code class="text-white">.bg-purple-500</code></div>
+                                        <div class="bg-purple-600 text-center"><code class="text-white">.bg-purple-600</code></div>
+                                        <div class="bg-purple-700 text-center"><code class="text-white">.bg-purple-700</code></div>
+                                        <div class="bg-purple-800 text-center"><code class="text-white">.bg-purple-800</code></div>
+                                        <div class="bg-purple-900 text-center"><code class="text-white">.bg-purple-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-purple-100">.text-purple-100</div>
+                                        <div class="text-center text-purple-200">.text-purple-200</div>
+                                        <div class="text-center text-purple-300">.text-purple-300</div>
+                                        <div class="text-center text-purple-400">.text-purple-400</div>
+                                        <div class="text-center text-purple-500">.text-purple-500</div>
+                                        <div class="text-center text-purple-600">.text-purple-600</div>
+                                        <div class="text-center text-purple-700">.text-purple-700</div>
+                                        <div class="text-center text-purple-800">.text-purple-800</div>
+                                        <div class="text-center text-purple-900">.text-purple-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Pink Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-pink-100 text-center"><code class="text-dark">.bg-pink-100</code></div>
+                                        <div class="bg-pink-200 text-center"><code class="text-dark">.bg-pink-200</code></div>
+                                        <div class="bg-pink-300 text-center"><code class="text-dark">.bg-pink-300</code></div>
+                                        <div class="bg-pink-400 text-center"><code class="text-white">.bg-pink-400</code></div>
+                                        <div class="bg-pink-500 text-center"><code class="text-white">.bg-pink-500</code></div>
+                                        <div class="bg-pink-600 text-center"><code class="text-white">.bg-pink-600</code></div>
+                                        <div class="bg-pink-700 text-center"><code class="text-white">.bg-pink-700</code></div>
+                                        <div class="bg-pink-800 text-center"><code class="text-white">.bg-pink-800</code></div>
+                                        <div class="bg-pink-900 text-center"><code class="text-white">.bg-pink-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-pink-100">.text-pink-100</div>
+                                        <div class="text-center text-pink-200">.text-pink-200</div>
+                                        <div class="text-center text-pink-300">.text-pink-300</div>
+                                        <div class="text-center text-pink-400">.text-pink-400</div>
+                                        <div class="text-center text-pink-500">.text-pink-500</div>
+                                        <div class="text-center text-pink-600">.text-pink-600</div>
+                                        <div class="text-center text-pink-700">.text-pink-700</div>
+                                        <div class="text-center text-pink-800">.text-pink-800</div>
+                                        <div class="text-center text-pink-900">.text-pink-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Blue Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-blue-100 text-center"><code class="text-dark">.bg-blue-100</code></div>
+                                        <div class="bg-blue-200 text-center"><code class="text-dark">.bg-blue-200</code></div>
+                                        <div class="bg-blue-300 text-center"><code class="text-dark">.bg-blue-300</code></div>
+                                        <div class="bg-blue-400 text-center"><code class="text-white">.bg-blue-400</code></div>
+                                        <div class="bg-blue-500 text-center"><code class="text-white">.bg-blue-500</code></div>
+                                        <div class="bg-blue-600 text-center"><code class="text-white">.bg-blue-600</code></div>
+                                        <div class="bg-blue-700 text-center"><code class="text-white">.bg-blue-700</code></div>
+                                        <div class="bg-blue-800 text-center"><code class="text-white">.bg-blue-800</code></div>
+                                        <div class="bg-blue-900 text-center"><code class="text-white">.bg-blue-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-blue-100">.text-blue-100</div>
+                                        <div class="text-center text-blue-200">.text-blue-200</div>
+                                        <div class="text-center text-blue-300">.text-blue-300</div>
+                                        <div class="text-center text-blue-400">.text-blue-400</div>
+                                        <div class="text-center text-blue-500">.text-blue-500</div>
+                                        <div class="text-center text-blue-600">.text-blue-600</div>
+                                        <div class="text-center text-blue-700">.text-blue-700</div>
+                                        <div class="text-center text-blue-800">.text-blue-800</div>
+                                        <div class="text-center text-blue-900">.text-blue-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Red Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-red-100 text-center"><code class="text-dark">.bg-red-100</code></div>
+                                        <div class="bg-red-200 text-center"><code class="text-dark">.bg-red-200</code></div>
+                                        <div class="bg-red-300 text-center"><code class="text-dark">.bg-red-300</code></div>
+                                        <div class="bg-red-400 text-center"><code class="text-white">.bg-red-400</code></div>
+                                        <div class="bg-red-500 text-center"><code class="text-white">.bg-red-500</code></div>
+                                        <div class="bg-red-600 text-center"><code class="text-white">.bg-red-600</code></div>
+                                        <div class="bg-red-700 text-center"><code class="text-white">.bg-red-700</code></div>
+                                        <div class="bg-red-800 text-center"><code class="text-white">.bg-red-800</code></div>
+                                        <div class="bg-red-900 text-center"><code class="text-white">.bg-red-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-red-100">.text-red-100</div>
+                                        <div class="text-center text-red-200">.text-red-200</div>
+                                        <div class="text-center text-red-300">.text-red-300</div>
+                                        <div class="text-center text-red-400">.text-red-400</div>
+                                        <div class="text-center text-red-500">.text-red-500</div>
+                                        <div class="text-center text-red-600">.text-red-600</div>
+                                        <div class="text-center text-red-700">.text-red-700</div>
+                                        <div class="text-center text-red-800">.text-red-800</div>
+                                        <div class="text-center text-red-900">.text-red-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Orange Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-orange-100 text-center"><code class="text-dark">.bg-orange-100</code></div>
+                                        <div class="bg-orange-200 text-center"><code class="text-dark">.bg-orange-200</code></div>
+                                        <div class="bg-orange-300 text-center"><code class="text-dark">.bg-orange-300</code></div>
+                                        <div class="bg-orange-400 text-center"><code class="text-white">.bg-orange-400</code></div>
+                                        <div class="bg-orange-500 text-center"><code class="text-white">.bg-orange-500</code></div>
+                                        <div class="bg-orange-600 text-center"><code class="text-white">.bg-orange-600</code></div>
+                                        <div class="bg-orange-700 text-center"><code class="text-white">.bg-orange-700</code></div>
+                                        <div class="bg-orange-800 text-center"><code class="text-white">.bg-orange-800</code></div>
+                                        <div class="bg-orange-900 text-center"><code class="text-white">.bg-orange-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-orange-100">.text-orange-100</div>
+                                        <div class="text-center text-orange-200">.text-orange-200</div>
+                                        <div class="text-center text-orange-300">.text-orange-300</div>
+                                        <div class="text-center text-orange-400">.text-orange-400</div>
+                                        <div class="text-center text-orange-500">.text-orange-500</div>
+                                        <div class="text-center text-orange-600">.text-orange-600</div>
+                                        <div class="text-center text-orange-700">.text-orange-700</div>
+                                        <div class="text-center text-orange-800">.text-orange-800</div>
+                                        <div class="text-center text-orange-900">.text-orange-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Yellow Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-yellow-100 text-center"><code class="text-dark">.bg-yellow-100</code></div>
+                                        <div class="bg-yellow-200 text-center"><code class="text-dark">.bg-yellow-200</code></div>
+                                        <div class="bg-yellow-300 text-center"><code class="text-dark">.bg-yellow-300</code></div>
+                                        <div class="bg-yellow-400 text-center"><code class="text-white">.bg-yellow-400</code></div>
+                                        <div class="bg-yellow-500 text-center"><code class="text-white">.bg-yellow-500</code></div>
+                                        <div class="bg-yellow-600 text-center"><code class="text-white">.bg-yellow-600</code></div>
+                                        <div class="bg-yellow-700 text-center"><code class="text-white">.bg-yellow-700</code></div>
+                                        <div class="bg-yellow-800 text-center"><code class="text-white">.bg-yellow-800</code></div>
+                                        <div class="bg-yellow-900 text-center"><code class="text-white">.bg-yellow-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-yellow-100">.text-yellow-100</div>
+                                        <div class="text-center text-yellow-200">.text-yellow-200</div>
+                                        <div class="text-center text-yellow-300">.text-yellow-300</div>
+                                        <div class="text-center text-yellow-400">.text-yellow-400</div>
+                                        <div class="text-center text-yellow-500">.text-yellow-500</div>
+                                        <div class="text-center text-yellow-600">.text-yellow-600</div>
+                                        <div class="text-center text-yellow-700">.text-yellow-700</div>
+                                        <div class="text-center text-yellow-800">.text-yellow-800</div>
+                                        <div class="text-center text-yellow-900">.text-yellow-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Green Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-green-100 text-center"><code class="text-dark">.bg-green-100</code></div>
+                                        <div class="bg-green-200 text-center"><code class="text-dark">.bg-green-200</code></div>
+                                        <div class="bg-green-300 text-center"><code class="text-dark">.bg-green-300</code></div>
+                                        <div class="bg-green-400 text-center"><code class="text-white">.bg-green-400</code></div>
+                                        <div class="bg-green-500 text-center"><code class="text-white">.bg-green-500</code></div>
+                                        <div class="bg-green-600 text-center"><code class="text-white">.bg-green-600</code></div>
+                                        <div class="bg-green-700 text-center"><code class="text-white">.bg-green-700</code></div>
+                                        <div class="bg-green-800 text-center"><code class="text-white">.bg-green-800</code></div>
+                                        <div class="bg-green-900 text-center"><code class="text-white">.bg-green-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-green-100">.text-green-100</div>
+                                        <div class="text-center text-green-200">.text-green-200</div>
+                                        <div class="text-center text-green-300">.text-green-300</div>
+                                        <div class="text-center text-green-400">.text-green-400</div>
+                                        <div class="text-center text-green-500">.text-green-500</div>
+                                        <div class="text-center text-green-600">.text-green-600</div>
+                                        <div class="text-center text-green-700">.text-green-700</div>
+                                        <div class="text-center text-green-800">.text-green-800</div>
+                                        <div class="text-center text-green-900">.text-green-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Teal Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-teal-100 text-center"><code class="text-dark">.bg-teal-100</code></div>
+                                        <div class="bg-teal-200 text-center"><code class="text-dark">.bg-teal-200</code></div>
+                                        <div class="bg-teal-300 text-center"><code class="text-dark">.bg-teal-300</code></div>
+                                        <div class="bg-teal-400 text-center"><code class="text-white">.bg-teal-400</code></div>
+                                        <div class="bg-teal-500 text-center"><code class="text-white">.bg-teal-500</code></div>
+                                        <div class="bg-teal-600 text-center"><code class="text-white">.bg-teal-600</code></div>
+                                        <div class="bg-teal-700 text-center"><code class="text-white">.bg-teal-700</code></div>
+                                        <div class="bg-teal-800 text-center"><code class="text-white">.bg-teal-800</code></div>
+                                        <div class="bg-teal-900 text-center"><code class="text-white">.bg-teal-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-teal-100">.text-teal-100</div>
+                                        <div class="text-center text-teal-200">.text-teal-200</div>
+                                        <div class="text-center text-teal-300">.text-teal-300</div>
+                                        <div class="text-center text-teal-400">.text-teal-400</div>
+                                        <div class="text-center text-teal-500">.text-teal-500</div>
+                                        <div class="text-center text-teal-600">.text-teal-600</div>
+                                        <div class="text-center text-teal-700">.text-teal-700</div>
+                                        <div class="text-center text-teal-800">.text-teal-800</div>
+                                        <div class="text-center text-teal-900">.text-teal-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Cyan Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-cyan-100 text-center"><code class="text-dark">.bg-cyan-100</code></div>
+                                        <div class="bg-cyan-200 text-center"><code class="text-dark">.bg-cyan-200</code></div>
+                                        <div class="bg-cyan-300 text-center"><code class="text-dark">.bg-cyan-300</code></div>
+                                        <div class="bg-cyan-400 text-center"><code class="text-white">.bg-cyan-400</code></div>
+                                        <div class="bg-cyan-500 text-center"><code class="text-white">.bg-cyan-500</code></div>
+                                        <div class="bg-cyan-600 text-center"><code class="text-white">.bg-cyan-600</code></div>
+                                        <div class="bg-cyan-700 text-center"><code class="text-white">.bg-cyan-700</code></div>
+                                        <div class="bg-cyan-800 text-center"><code class="text-white">.bg-cyan-800</code></div>
+                                        <div class="bg-cyan-900 text-center"><code class="text-white">.bg-cyan-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-cyan-100">.text-cyan-100</div>
+                                        <div class="text-center text-cyan-200">.text-cyan-200</div>
+                                        <div class="text-center text-cyan-300">.text-cyan-300</div>
+                                        <div class="text-center text-cyan-400">.text-cyan-400</div>
+                                        <div class="text-center text-cyan-500">.text-cyan-500</div>
+                                        <div class="text-center text-cyan-600">.text-cyan-600</div>
+                                        <div class="text-center text-cyan-700">.text-cyan-700</div>
+                                        <div class="text-center text-cyan-800">.text-cyan-800</div>
+                                        <div class="text-center text-cyan-900">.text-cyan-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Gray Color Palette</h5>
+                            </div>
+                            <div class="s-card-content">
+                                <div class="row">
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="bg-gray-100 text-center"><code class="text-dark">.bg-gray-100</code></div>
+                                        <div class="bg-gray-200 text-center"><code class="text-dark">.bg-gray-200</code></div>
+                                        <div class="bg-gray-300 text-center"><code class="text-dark">.bg-gray-300</code></div>
+                                        <div class="bg-gray-400 text-center"><code class="text-white">.bg-gray-400</code></div>
+                                        <div class="bg-gray-500 text-center"><code class="text-white">.bg-gray-500</code></div>
+                                        <div class="bg-gray-600 text-center"><code class="text-white">.bg-gray-600</code></div>
+                                        <div class="bg-gray-700 text-center"><code class="text-white">.bg-gray-700</code></div>
+                                        <div class="bg-gray-800 text-center"><code class="text-white">.bg-gray-800</code></div>
+                                        <div class="bg-gray-900 text-center"><code class="text-white">.bg-gray-900</code></div>
+                                    </div><!--/.col-lg-6 -->
+                                    <div class="col-sm-6 mb-md-4 mb-sm-4">
+                                        <div class="text-center text-gray-100">.text-gray-100</div>
+                                        <div class="text-center text-gray-200">.text-gray-200</div>
+                                        <div class="text-center text-gray-300">.text-gray-300</div>
+                                        <div class="text-center text-gray-400">.text-gray-400</div>
+                                        <div class="text-center text-gray-500">.text-gray-500</div>
+                                        <div class="text-center text-gray-600">.text-gray-600</div>
+                                        <div class="text-center text-gray-700">.text-gray-700</div>
+                                        <div class="text-center text-gray-800">.text-gray-800</div>
+                                        <div class="text-center text-gray-900">.text-gray-900</div>
+                                    </div><!--/.col-lg-6 -->
+                                </div><!--/.row-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-lg-6 -->
+
+                </div>
+                <!--##  end ##-->
+            </div>
+            <!--## content end ##-->
+
+        </main><!--/.page-content-->
+        <!--## page-content ends ##-->
+
+        <div class="bg_overlay"></div>
+    </div><!--/.page-wrapper-->
+    <script src="./../dist/main.bundle.js"></script>
+</body>
+</html>

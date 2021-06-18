@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Admin</title>
+    <link rel="stylesheet" href="./../dist/style.css"/>
+</head>
+<body class="s-theme mini">
+    <div id="page-wrapper" class="page-wrapper">
+        <!--## sidebar begins ##-->
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <h4>
+                        <a href="/" class="text-white">
+                            <span class="logo-text logo-lg">
+                                Awesome <strong>SLIM</strong>
+                            </span>
+                            <span class="logo-sm">
+                                A<strong>S</strong>M
+                            </span>
+                        </a>
+                    </h4>
+                    <div id="close-sidebar-sm"> <i class="las la-times"></i> </div>
+                </div><!--/.sidebar-brand-->
+                <div class="sidebar-menu">
+                    <ul class="master-ul">
+                        <li class="sidebar-dropdown">
+                            <a href="index.html">
+                                <i class="las la-tachometer-alt la-lg"></i>
+                                <span class="nav-text">Dashboard</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Dashboard</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-user-clock la-lg"></i>
+                                <span class="nav-text">Basic UI Elements</span>
+                                <span class="right-side-container">
+                                    <span class="nav-badge badge badge-success">3</span>
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Basic UI Elements</li>
+                                    <li><a href="cards.html">Cards</a></li>
+                                    <li><a href="modals.html">Modals</a></li>
+                                    <li><a href="badges.html">Badges</a></li>
+                                    <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                                    <li><a href="tabs.html">Tabs</a></li>
+                                    <li><a href="tooltips.html">Tooltip</a></li>
+                                    <li><a href="buttons.html">Buttons</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="widgets.html">
+                                <i class="las la-square-root-alt la-lg"></i>
+                                <span class="nav-text">Widgets</span>
+                                <span class="right-side-container">
+                                    <span class="nav-badge badge badge-light">New</span>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Widgets</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="notifications.html">
+                                <i class="las la-bell la-lg"></i>
+                                <span class="nav-text">Notifications</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Notifications</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu active">
+                            <a href="#">
+                                <i class="lab la-wpforms la-lg"></i>
+                                <span class="nav-text">Form Elements</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu open" style="display: block">
+                                <ul>
+                                    <li class="submenu-title">Form Elements</li>
+                                    <li><a href="form-basic.html" class="active">Basic </a></li>
+                                    <li><a href="form-wizard.html">Wizard </a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-border-all la-lg"></i>
+                                <span class="nav-text">Tables</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Tables</li>
+                                    <li><a href="basic-table.html">Basic Table</a></li>
+                                    <li><a href="datatable.html">Data Table</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-braille la-lg"></i>
+                                <span class="nav-text">User Pages</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">User Pages</li>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="login-2.html">Login 2</a></li>
+                                    <li><a href="register.html">Register</a></li>
+                                    <li><a href="404.html">404 Page</a></li>
+                                    <li><a href="500.html">500 Page</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-retweet la-lg"></i>
+                                <span class="nav-text">Nested</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Nested</li>
+                                    <li><a href="#">Menu 1</a></li>
+                                    <li class="nested-dropdown" >
+                                        <a href="#">
+                                            Nested Menu
+                                            <span class="right-side-container">
+                                                <i class="las la-angle-right"></i>
+                                            </span>
+                                        </a>
+                                        <div class="nested-menu">
+                                            <ul>
+                                                <li><a href="#">Menu 2.1</a></li>
+                                                <li><a href="#">Menu 2.2</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="colors.html">
+                                <i class="las la-random la-lg"></i>
+                                <span class="nav-text">Color</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Color</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="crud.html">
+                                <i class="las la-smile la-lg"></i>
+                                <span class="nav-text">CRUD Example</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">CRUD Example</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!--/.sidebar-menu-->
+                <div class="sidebar-footer text-white">
+                    <div class="copyright">Copyright © 2021 <strong>AW SLIM</strong> All rights reserved.</div>
+                </div><!--/.sidebar-footer-->
+            </div><!--/.sidebar-content-->
+        </nav><!--/.sidebar-wrapper-->
+        <!--## sidebar ends ##-->
+
+        <!--## page-content starts ##-->
+        <main class="page-content">
+            <!--## header begins ##-->
+            <header>
+                <!--Left-->
+                <nav class="navbar navbar-expand navbar-light p-0">
+                    <div class="sidebar-brand d-md-none"> <a href="#"><img src="images/logo.png" alt=""> </a> </div>
+                    <div class="sidebar-control">
+                        <a href="#" class="sidebar-toggler" id="close-sidebar"><span></span><span></span><span></span></a>
+                        <a href="#" class="sidebar-toggler" id="show-sidebar"><span></span><span></span><span></span></a>
+                    </div>
+
+                    <!-- Search Desktop -->
+                    <form class="d-none d-md-inline-block form-inline mr-auto search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <div class="input-group-append">
+                                <button class="btn" type="button"> <i class="las la-search"></i> </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Search Mobile -->
+                        <li class="nav-item dropdown d-md-none search-sm">
+                            <a class="nav-link px-1 dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <i class="las la-search"></i>
+                            </a>
+                            <!-- Dropdown - Search -->
+                            <div class="dropdown-menu p-2 dropdown-menu-right shadow" aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button"> <i class="las la-search"></i> </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link px-1 dropdown-toggle" href="#" id="langDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                EN
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right animate__animated animate__flipInX" aria-labelledby="langDropdown">
+                                <a class="dropdown-item" href="#">
+                                    English
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Hindi
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    French
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item profile dropdown">
+                            <a class="nav-link px-1 dropdown-toggle" href="#" id="profileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle" src="https://randomuser.me/api/portraits/men/4.jpg" alt="" width="40" />
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right animate__animated animate__flipInX" aria-labelledby="profileDropdown">
+                                <p>Hello, Tom Jones</p>
+                                <p>Billing Plan :<span>3 minutes ago</span></p>
+                                <p>Role : <span>Admin</span></p>
+                                <div class="dropdown-divider my-3"></div>
+                                <p>Email : <span>demo@sellpixels.com</span></p>
+                                <p>Phone : <span>+91 74058 39386</span></p>
+                                <div class="dropdown-divider mt-3"></div>
+                                <a class="dropdown-item" href="#"><i class="las la-user "></i> Profile </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"> <i class="las la-sign-out-alt"></i>Logout </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header><!--/header-->
+            <!--## header ends ##-->
+
+            <!--## content begins ##-->
+            <div class="content">
+                <!-- Title -->
+                <div class="content-title">
+                    <div class="row flex-row-reverse">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 align-self-center">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb style-1">
+                                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                    <li class="breadcrumb-item active">Basic Form Element</li>
+                                </ol>
+                            </nav>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 align-self-center tit1le">
+                            <h3>Form</h3>
+                            <p class="text-gray-800 p-0 m-0">Basic Form Element</p>
+                        </div>
+                    </div><!--/.row-->
+                </div><!--/.content-title-->
+
+                <!--## row start ##-->
+                <div class="row mt-3">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>
+                                    Basic Form
+                                    <small class="text-gray-500">Element</small>
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label">Static</label>
+                                                <div class="col-md-9">
+                                                    <p class="form-control-static">Username</p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label" for="text-input">Text Input</label>
+                                                <div class="col-md-9">
+                                                    <input class="form-control" id="text-input" type="text" name="text-input" placeholder="Text"><span class="help-block">This is a help text</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label" for="email-input">Email Input</label>
+                                                <div class="col-md-9">
+                                                    <input class="form-control" id="email-input" type="email" name="email-input" placeholder="Enter Email" autocomplete="email"><span class="help-block">Please enter your email</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label" for="password-input">Password</label>
+                                                <div class="col-md-9">
+                                                    <input class="form-control" id="password-input" type="password" name="password-input" placeholder="Password" autocomplete="new-password">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label" for="date-input">Date Input</label>
+                                                <div class="col-md-9">
+                                                    <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date"><span class="help-block">Please enter a valid date</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label" for="disabled-input">Disabled Input</label>
+                                                <div class="col-md-9">
+                                                    <input class="form-control" id="disabled-input" type="text" name="disabled-input" placeholder="Disabled" disabled="">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label" for="textarea-input">Textarea</label>
+                                                <div class="col-md-9">
+                                                    <textarea class="form-control" id="textarea-input" name="textarea-input" rows="9" placeholder="Content.."></textarea>
+                                                </div>
+                                            </div>
+                                        </div><!--/.col-lg-6.col-md-12.col-sm-12-->
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label" for="select1">Select</label>
+                                                <div class="col-md-9">
+                                                    <select class="form-control" id="select1" name="select1">
+                                                        <option value="0">Please select</option>
+                                                        <option value="1">Option #1</option>
+                                                        <option value="2">Option #2</option>
+                                                        <option value="3">Option #3</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label" for="multiple-select">Multiple select</label>
+                                                <div class="col-md-9">
+                                                    <select class="form-control" id="multiple-select" name="multiple-select" size="5" multiple="">
+                                                        <option value="1">Option #1</option>
+                                                        <option value="2">Option #2</option>
+                                                        <option value="3">Option #3</option>
+                                                        <option value="4">Option #4</option>
+                                                        <option value="5">Option #5</option>
+                                                        <option value="6">Option #6</option>
+                                                        <option value="7">Option #7</option>
+                                                        <option value="8">Option #8</option>
+                                                        <option value="9">Option #9</option>
+                                                        <option value="10">Option #10</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label">Radios</label>
+                                                <div class="col-md-9 col-form-label">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" id="radio1" type="radio" value="radio1" name="radios">
+                                                        <label class="form-check-label" for="radio1">Option 1</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" id="radio2" type="radio" value="radio2" name="radios">
+                                                        <label class="form-check-label" for="radio2">Option 2</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" id="radio3" type="radio" value="radio2" name="radios">
+                                                        <label class="form-check-label" for="radio3">Option 3</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label">Inline Radios</label>
+                                                <div class="col-md-9 col-form-label">
+                                                    <div class="form-check form-check-inline mr-1">
+                                                        <input class="form-check-input" id="inline-radio1" type="radio" value="option1" name="inline-radios">
+                                                        <label class="form-check-label" for="inline-radio1">One</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline mr-1">
+                                                        <input class="form-check-input" id="inline-radio2" type="radio" value="option2" name="inline-radios">
+                                                        <label class="form-check-label" for="inline-radio2">Two</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline mr-1">
+                                                        <input class="form-check-input" id="inline-radio3" type="radio" value="option3" name="inline-radios">
+                                                        <label class="form-check-label" for="inline-radio3">Three</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label">Switch</label>
+                                                <div class="col-md-9 col-form-label">
+                                                    <div class="custom-control custom-switch">
+                                                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                                        <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>s
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label">Checkboxes</label>
+                                                <div class="col-md-9 col-form-label">
+                                                    <div class="form-check checkbox">
+                                                        <input class="form-check-input" id="check1" type="checkbox" value="">
+                                                        <label class="form-check-label" for="check1">Option 1</label>
+                                                    </div>
+                                                    <div class="form-check checkbox">
+                                                        <input class="form-check-input" id="check2" type="checkbox" value="">
+                                                        <label class="form-check-label" for="check2">Option 2</label>
+                                                    </div>
+                                                    <div class="form-check checkbox">
+                                                        <input class="form-check-input" id="check3" type="checkbox" value="">
+                                                        <label class="form-check-label" for="check3">Option 3</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label">Inline Checkboxes</label>
+                                                <div class="col-md-9 col-form-label">
+                                                    <div class="form-check form-check-inline mr-1">
+                                                        <input class="form-check-input" id="inline-checkbox1" type="checkbox" value="check1">
+                                                        <label class="form-check-label" for="inline-checkbox1">One</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline mr-1">
+                                                        <input class="form-check-input" id="inline-checkbox2" type="checkbox" value="check2">
+                                                        <label class="form-check-label" for="inline-checkbox2">Two</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline mr-1">
+                                                        <input class="form-check-input" id="inline-checkbox3" type="checkbox" value="check3">
+                                                        <label class="form-check-label" for="inline-checkbox3">Three</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label" for="file-input">File input</label>
+                                                <div class="col-md-9">
+                                                    <input id="file-input" type="file" name="file-input">
+                                                </div>
+                                            </div>
+                                        </div><!--/.col-lg-6.col-md-12.col-sm-12-->
+                                    </div><!--/.row-->
+                                </form>
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-8.col-sm-12-->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>
+                                    Validation
+                                    <small class="text-gray-500">states</small>
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <form>
+                                    <div class="form-group">
+                                        <label class="form-col-form-label" for="inputSuccess1">Success</label>
+                                        <input class="form-control is-valid" id="inputSuccess1" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-col-form-label" for="inputError1">Error</label>
+                                        <select class="form-control is-invalid" id="inputError1" name="select1">
+                                            <option value="0">Please select</option>
+                                            <option value="1">Option #1</option>
+                                            <option value="2">Option #2</option>
+                                            <option value="3">Option #3</option>
+                                        </select>
+                                        <div class="invalid-feedback">Please provide a valid informations.</div>
+                                    </div>
+                                    <div class="s-card-footer">
+                                        <button type="button" class="btn btn-primary btn-sm">Submit</button>
+                                        <button type="button" class="btn btn-outline-danger btn-sm">Cancel</button>
+                                    </div><!--/.s-card-footer-->
+                                </form><!--/form-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-4.col-sm-12-->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>
+                                    With input group
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <form action="">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-success" type="button">Love it</button>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <input type="checkbox" aria-label="Checkbox for following text input">
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Text input with checkbox">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="validatedInputGroupPrepend">@</span>
+                                        </div>
+                                        <input type="text" class="form-control is-invalid" aria-describedby="validatedInputGroupPrepend" required="">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <button type="button" class="btn btn-primary">Action</button>
+                                            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                                    </div>
+                                </form>
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-4.col-sm-12-->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>
+                                    Form Group
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="formGroupExampleInput">Example label</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="formGroupExampleInput2">Another label</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                                    </div>
+                                </form>
+                                <div class="s-card-footer">
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                    <button type="button" class="btn btn-outline-danger">Cancel</button>
+                                </div>
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-4.col-sm-12-->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-column justify-content-center mr-auto">
+                                        <h5>
+                                            Horizontal
+                                            <small class="text-gray-500">Form</small>
+                                        </h5>
+                                    </div><!--/.d-flex-->
+                                    <div>
+                                        <a class="btn btn-sm btn-light mr-2"><i class="las la-unlock"></i></a>
+                                        <a class="btn btn-sm btn-light mr-2"><i class="las la-star"></i></a>
+                                        <a class="btn btn-sm btn-light"><i class="las la-trash"></i></a>
+                                    </div>
+                                </div><!--/.flex-->
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="inputEmail3">
+                                        </div>
+                                </div>
+                                    <div class="form-group row">
+                                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="inputPassword3">
+                                        </div>
+                                    </div>
+                                    <fieldset class="form-group row">
+                                        <legend class="col-form-label col-sm-2 float-sm-left pt-0">Radios</legend>
+                                        <div class="col-sm-10">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                                <label class="form-check-label" for="gridRadios1">
+                                                    First radio
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                                <label class="form-check-label" for="gridRadios2">
+                                                    Second radio
+                                                </label>
+                                            </div>
+                                            <div class="form-check disabled">
+                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                                                <label class="form-check-label" for="gridRadios3">
+                                                    Third disabled radio
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <div class="form-group row">
+                                        <div class="col-sm-10 offset-sm-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                <label class="form-check-label" for="gridCheck1">
+                                                    Example checkbox
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s-card-footer">
+                                        <button type="button" class="btn btn-primary btn-sm">Submit</button>
+                                        <button type="button" class="btn btn-outline-danger btn-sm">Cancel</button>
+                                    </div><!--/.s-card-footer-->
+                                </form><!--/form-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-6.col-sm-12-->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>
+                                    Size
+                                    <small class="text-gray-500">Variant</small>
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
+                                        </div>
+                                    </div>
+                                    <div class="s-card-footer">
+                                        <button type="button" class="btn btn-primary">Submit</button>
+                                        <button type="button" class="btn btn-outline-danger">Cancel</button>
+                                    </div><!--/.s-card-footer-->
+                                </form><!--/form-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-6.col-sm-12-->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>
+                                    Column
+                                    <small class="text-gray-500">Sizing</small>
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <form>
+                                    <div class="form-row mb-3">
+                                        <div class="col-7">
+                                            <input type="text" class="form-control" placeholder="col-7">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="col">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="col">
+                                        </div>
+                                    </div>
+                                </form><!--/form-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-6.col-sm-12-->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>
+                                    Form
+                                    <small class="text-gray-500">Inline</small>
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <form class="form-inline">
+                                    <label class="sr-only" for="inlineFormInputName2">Name</label>
+                                    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
+
+                                    <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">@</div>
+                                        </div>
+                                        <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+                                    </div>
+
+                                    <div class="form-check mb-2 mr-sm-2">
+                                        <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                                        <label class="form-check-label" for="inlineFormCheck">
+                                            Remember me
+                                        </label>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                                </form><!--/form-->
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-6.col-sm-12-->
+                </div><!--/.row-->
+                <!--## row end ##-->
+            </div>
+            <!--## content end ##-->
+
+        </main><!--/.page-content-->
+        <!--## page-content ends ##-->
+
+        <div class="bg_overlay"></div>
+    </div><!--/.page-wrapper-->
+    <script src="./../dist/main.bundle.js"></script>
+</body>
+</html>

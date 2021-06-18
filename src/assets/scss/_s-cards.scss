@@ -1,0 +1,107 @@
+$s-card-font-size: 1.2rem;
+$s-card-padding: 1rem;
+
+.s-card {
+    margin-bottom: 1.5rem;
+
+    &.style-1 {
+        padding: $s-card-padding;
+        border: 1px solid;
+
+        .s-card-header {
+            padding-bottom: $s-card-padding;
+        }
+
+        .s-card-footer{
+            padding-top: $s-card-padding;
+            border-top: 1px solid;
+        }
+
+        &.bordered-bottom {
+            .s-card-header {
+                border-bottom: 1px solid;
+            }
+
+            .s-card-content{
+                @extend .mt-3;
+            }
+        }
+    }
+
+    &.style-2 {
+        border: 1px solid;
+
+        .s-card-header:not(.with-tabs),
+        .s-card-content,
+        .s-card-footer {
+            padding: $s-card-padding;
+        }
+
+        .s-card-footer{
+            border-top: 1px solid;
+        }
+
+        .s-card-header:not(.with-tabs){
+            border-bottom: 1px solid;
+        }
+
+        .s-card-header.with-tabs {
+            padding-left: $s-card-padding;
+            padding-right: $s-card-padding;
+            padding-top: $s-card-padding;
+            border-bottom: 1px solid;
+
+            &.with-pills{
+                padding-bottom: $s-card-padding;
+            }
+
+            .nav{
+                border: 0;
+                a {
+                    border: 0;
+                    font-size: 1rem;
+
+                    &.active{
+                        border-bottom: 1px solid;
+                        border-color: inherit;
+                    }
+                }
+
+                &:not(.nav-pills) {
+                    a{
+                        padding-bottom: $s-card-padding;
+                    }
+                }
+            }
+        }
+    }
+
+    .s-card-header {
+        font-size: $s-card-font-size;
+        font-family: $heading-fonts;
+    }
+
+    &.top-rounded{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-top-width: 2px;
+
+        @each $color, $value in $colors {
+            &.border-top-#{$color} {
+                border-top-color: $value !important;
+            }
+        }
+    }
+
+    &.with-button{
+        .s-card-header{
+            min-height: 4.3rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .s-card-footer{
+            min-height: 4.3rem;
+        }
+    }
+}

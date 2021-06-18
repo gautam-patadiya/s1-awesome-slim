@@ -1,0 +1,132 @@
+.info-widget {
+    margin-bottom: 1.5rem;
+
+    &.style-1 {
+        border: 1px solid;
+
+        .widget-content {
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            align-items: center;
+
+            h1, h2, h3, h4, h5, h6 {
+                font-size: 20px;
+                @extend .mb-2;
+            }
+
+            @extend .p-3;
+
+            & > div:last-child {
+                margin-left: auto;
+
+                span{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    &.style-2{
+        border: 1px solid;
+
+        .widget-content {
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            align-items: center;
+
+            h1, h2, h3, h4, h5, h6 {
+                font-size: 20px;
+                @extend .mb-2;
+            }
+
+            img{
+                border-radius: 50%;
+                max-width: 80px;
+                max-height: 80px;
+            }
+
+            @extend .p-3;
+        }
+    }
+
+    &.style-3{
+        border: 1px solid;
+
+        h1, h2, h3, h4, h5, h6 {
+            @extend .mb-2;
+        }
+
+        .widget-content{
+            .mt-n60{
+                margin-top: -60px;
+            }
+        }
+    }
+
+    &.style-4{
+        border: 1px solid;
+
+        .icon{
+            min-width: 100px;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .widget-content{
+            @extend .p-2;
+        }
+    }
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+
+    &:before {
+        content: ' ';
+        background: #d4d9df;
+        display: inline-block;
+        position: absolute;
+        left: 19px;
+        width: 2px;
+        height: 100%;
+        z-index: 1;
+    }
+
+    & > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+    & > li:before {
+        position: absolute;
+        left: 8px;
+        content: ' ';
+        border-top: 12px solid #CC0000;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        z-index: 2;
+        margin-top: 8px;
+    }
+
+    @each $color, $value in $colors {
+        & > li{
+            &.border-top-#{$color} {
+                &:before{
+                    border-top-color: $value !important;
+                }
+            }
+        }
+    }
+}

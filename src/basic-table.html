@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Admin</title>
+    <link rel="stylesheet" href="./../dist/style.css"/>
+</head>
+<body class="s-theme mini">
+    <div id="page-wrapper" class="page-wrapper">
+        <!--## sidebar begins ##-->
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <h4>
+                        <a href="/" class="text-white">
+                            <span class="logo-text logo-lg">
+                                Awesome <strong>SLIM</strong>
+                            </span>
+                            <span class="logo-sm">
+                                A<strong>S</strong>M
+                            </span>
+                        </a>
+                    </h4>
+                    <div id="close-sidebar-sm"> <i class="las la-times"></i> </div>
+                </div><!--/.sidebar-brand-->
+                <div class="sidebar-menu">
+                    <ul class="master-ul">
+                        <li class="sidebar-dropdown">
+                            <a href="index.html">
+                                <i class="las la-tachometer-alt la-lg"></i>
+                                <span class="nav-text">Dashboard</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Dashboard</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-user-clock la-lg"></i>
+                                <span class="nav-text">Basic UI Elements</span>
+                                <span class="right-side-container">
+                                    <span class="nav-badge badge badge-success">3</span>
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Basic UI Elements</li>
+                                    <li><a href="cards.html">Cards</a></li>
+                                    <li><a href="modals.html">Modals</a></li>
+                                    <li><a href="badges.html">Badges</a></li>
+                                    <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                                    <li><a href="tabs.html">Tabs</a></li>
+                                    <li><a href="tooltips.html">Tooltip</a></li>
+                                    <li><a href="buttons.html">Buttons</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="widgets.html">
+                                <i class="las la-square-root-alt la-lg"></i>
+                                <span class="nav-text">Widgets</span>
+                                <span class="right-side-container">
+                                    <span class="nav-badge badge badge-light">New</span>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Widgets</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="notifications.html">
+                                <i class="las la-bell la-lg"></i>
+                                <span class="nav-text">Notifications</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Notifications</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="lab la-wpforms la-lg"></i>
+                                <span class="nav-text">Form Elements</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Form Elements</li>
+                                    <li><a href="form-basic.html">Basic </a></li>
+                                    <li><a href="form-wizard.html" class="active">Wizard </a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu active">
+                            <a href="#">
+                                <i class="las la-border-all la-lg"></i>
+                                <span class="nav-text">Tables</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu open" style="display: block">
+                                <ul>
+                                    <li class="submenu-title">Tables</li>
+                                    <li><a href="basic-table.html" class="active">Basic Table</a></li>
+                                    <li><a href="datatable.html">Data Table</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-braille la-lg"></i>
+                                <span class="nav-text">User Pages</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">User Pages</li>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="login-2.html">Login 2</a></li>
+                                    <li><a href="register.html">Register</a></li>
+                                    <li><a href="404.html">404 Page</a></li>
+                                    <li><a href="500.html">500 Page</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown has-submenu">
+                            <a href="#">
+                                <i class="las la-retweet la-lg"></i>
+                                <span class="nav-text">Nested</span>
+                                <span class="right-side-container">
+                                    <i class="las la-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Nested</li>
+                                    <li><a href="#">Menu 1</a></li>
+                                    <li class="nested-dropdown" >
+                                        <a href="#">
+                                            Nested Menu
+                                            <span class="right-side-container">
+                                                <i class="las la-angle-right"></i>
+                                            </span>
+                                        </a>
+                                        <div class="nested-menu">
+                                            <ul>
+                                                <li><a href="#">Menu 2.1</a></li>
+                                                <li><a href="#">Menu 2.2</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="colors.html">
+                                <i class="las la-random la-lg"></i>
+                                <span class="nav-text">Color</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">Color</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="sidebar-dropdown">
+                            <a href="crud.html">
+                                <i class="las la-smile la-lg"></i>
+                                <span class="nav-text">CRUD Example</span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="submenu-title">CRUD Example</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!--/.sidebar-menu-->
+                <div class="sidebar-footer text-white">
+                    <div class="copyright">Copyright © 2021 <strong>AW SLIM</strong> All rights reserved.</div>
+                </div><!--/.sidebar-footer-->
+            </div><!--/.sidebar-content-->
+        </nav><!--/.sidebar-wrapper-->
+        <!--## sidebar ends ##-->
+
+        <!--## page-content starts ##-->
+        <main class="page-content">
+            <!--## header begins ##-->
+            <header>
+                <!--Left-->
+                <nav class="navbar navbar-expand navbar-light p-0">
+                    <div class="sidebar-brand d-md-none"> <a href="#"><img src="images/logo.png" alt=""> </a> </div>
+                    <div class="sidebar-control">
+                        <a href="#" class="sidebar-toggler" id="close-sidebar"><span></span><span></span><span></span></a>
+                        <a href="#" class="sidebar-toggler" id="show-sidebar"><span></span><span></span><span></span></a>
+                    </div>
+
+                    <!-- Search Desktop -->
+                    <form class="d-none d-md-inline-block form-inline mr-auto search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <div class="input-group-append">
+                                <button class="btn" type="button"> <i class="las la-search"></i> </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Search Mobile -->
+                        <li class="nav-item dropdown d-md-none search-sm">
+                            <a class="nav-link px-1 dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <i class="las la-search"></i>
+                            </a>
+                            <!-- Dropdown - Search -->
+                            <div class="dropdown-menu p-2 dropdown-menu-right shadow" aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button"> <i class="las la-search"></i> </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link px-1 dropdown-toggle" href="#" id="langDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                EN
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right animate__animated animate__flipInX" aria-labelledby="langDropdown">
+                                <a class="dropdown-item" href="#">
+                                    English
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Hindi
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    French
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item profile dropdown">
+                            <a class="nav-link px-1 dropdown-toggle" href="#" id="profileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle" src="https://randomuser.me/api/portraits/men/4.jpg" alt="" width="40" />
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right animate__animated animate__flipInX" aria-labelledby="profileDropdown">
+                                <p>Hello, Tom Jones</p>
+                                <p>Billing Plan :<span>3 minutes ago</span></p>
+                                <p>Role : <span>Admin</span></p>
+                                <div class="dropdown-divider my-3"></div>
+                                <p>Email : <span>demo@sellpixels.com</span></p>
+                                <p>Phone : <span>+91 74058 39386</span></p>
+                                <div class="dropdown-divider mt-3"></div>
+                                <a class="dropdown-item" href="#"><i class="las la-user "></i> Profile </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"> <i class="las la-sign-out-alt"></i>Logout </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header><!--/header-->
+            <!--## header ends ##-->
+
+            <!--## content begins ##-->
+            <div class="content">
+                <!-- Title -->
+                <div class="content-title">
+                    <div class="row flex-row-reverse">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 align-self-center">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb style-1">
+                                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                    <li class="breadcrumb-item active">Bootstrap Table</li>
+                                </ol>
+                            </nav>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 align-self-center tit1le">
+                            <h3>Table</h3>
+                            <p class="text-gray-800 p-0 m-0">Bootstrap Table</p>
+                        </div>
+                    </div><!--/.row-->
+                </div><!--/.content-title-->
+
+                <!--## row start ##-->
+                <div class="row mt-3">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>
+                                    Theme Style <code>.s-table .style-1</code>
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <div class="s-card-content">
+                                    <table class="table s-table style-1 m-0">
+                                        <thead>
+                                            <tr>
+                                                <th>NAME</th>
+                                                <th>POSITION</th>
+                                                <th>OFFICE</th>
+                                                <th>AGE</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Airi Satou</td>
+                                                <td>Accountant</td>
+                                                <td><span class="badge">Tokyo</span></td>
+                                                <td>33</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Angelica Ramos</td>
+                                                <td>Chief Executive Officer (CEO)</td>
+                                                <td><span class="badge">London</span></td>
+                                                <td>47</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ashton Cox</td>
+                                                <td>Junior Technical Author</td>
+                                                <td><span class="badge">San Francisco</span></td>
+                                                <td>28</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Brenden Wagner</td>
+                                                <td>Software Engineer</td>
+                                                <td><span class="badge">New York</span></td>
+                                                <td>30</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Caesar Vance</td>
+                                                <td>Pre-Sales Support</td>
+                                                <td><span class="badge">New York</span></td>
+                                                <td>33</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cedric Kelly</td>
+                                                <td>Senior Javascript Developer</td>
+                                                <td><span class="badge">Edinburgh</span></td>
+                                                <td>34</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bruno Nash</td>
+                                                <td>Integration Specialist</td>
+                                                <td><span class="badge">New York</span></td>
+                                                <td>38</td>
+                                            </tr>
+                                        </tbody>
+                                    </table><!--/.table-->
+                                </div>
+                            </div><!--/.s-card-content-->
+                            <div class="s-card-footer">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-end mb-0 pagination-sm1">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">Next</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div><!--/.s-card-footer-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-6.col-sm-12-->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>
+                                    Theme Style <code>.s-table .style-1 .border</code>
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <div class="s-card-content">
+                                    <table class="table s-table style-1 border m-0">
+                                        <thead>
+                                            <tr>
+                                                <th>ORDER ID</th>
+                                                <th>COUNTRY</th>
+                                                <th>SHIP DATE</th>
+                                                <th>STATUS</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div>63868-257 </div>
+                                                    <small class="text-indigo-400">Retail</small>
+                                                </td>
+                                                <td>Philippines PH</td>
+                                                <td>9/3/2017</td>
+                                                <td><span class="badge badge-danger">Pending</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div>33342-072 </div>
+                                                    <small class="text-gray-400">Retail</small>
+                                                </td>
+                                                <td>Gutkowski-Bartell</td>
+                                                <td>9/1/2018</td>
+                                                <td><span class="badge badge-secondary">Pending</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div>63868-257 </div>
+                                                    <small class="text-indigo-400">Retail</small>
+                                                </td>
+                                                <td>Vandervort, Lesch and Bins</td>
+                                                <td>9/3/2017</td>
+                                                <td><span class="badge badge-orange">Pending</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div>63257-389 </div>
+                                                    <small class="text-cyan-400">Online</small>
+                                                </td>
+                                                <td>Costa Rica CR</td>
+                                                <td>2/5/2014</td>
+                                                <td><span class="badge badge-teal">Pending</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div>44523-535</div>
+                                                    <small class="text-green-400">Direct</small>
+                                                </td>
+                                                <td>Argentina AR</td>
+                                                <td>2/16/2017</td>
+                                                <td><span class="badge badge-danger">Pending</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table><!--/.table-->
+                                </div>
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-6.col-sm-12-->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>Bordered Table <code>.table .table-bordered</code></h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td colspan="2">Larry the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-6.col-sm-12-->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="s-card style-1 bg-white">
+                            <div class="s-card-header">
+                                <h5>
+                                    Table sm  <code>.table .table-sm</code>
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <table class="table table-sm">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td colspan="2">Larry the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-6.col-sm-12-->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="s-card style-1 bg-white bordered-bottom">
+                            <div class="s-card-header">
+                                <h5>
+                                    Striped Table  <code>.table .table-striped</code>
+                                </h5>
+                            </div><!--/.s-card-header-->
+                            <div class="s-card-content">
+                                <table class="table table-striped">
+                                    <tbody><tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>Task</th>
+                                        <th>Progress</th>
+                                        <th style="width: 40px">Label</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Update software</td>
+                                        <td>
+                                            <div class="progress progress-xs">
+                                                <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                                            </div>
+                                        </td>
+                                        <td><span class="badge badge-teal">55%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>Clean database</td>
+                                        <td>
+                                            <div class="progress progress-xs">
+                                                <div class="progress-bar progress-bar-yellow" style="width: 70%"></div>
+                                            </div>
+                                        </td>
+                                        <td><span class="badge badge-warning">70%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td>Cron job running</td>
+                                        <td>
+                                            <div class="progress progress-xs progress-striped active">
+                                                <div class="progress-bar progress-bar-primary" style="width: 30%"></div>
+                                            </div>
+                                        </td>
+                                        <td><span class="badge badge-primary">30%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4.</td>
+                                        <td>Fix and squish bugs</td>
+                                        <td>
+                                            <div class="progress progress-xs progress-striped active">
+                                                <div class="progress-bar progress-bar-success" style="width: 90%"></div>
+                                            </div>
+                                        </td>
+                                        <td><span class="badge badge-success">90%</span></td>
+                                    </tr>
+                                    </tbody></table>
+                            </div><!--/.s-card-content-->
+                        </div><!--/.s-card-->
+                    </div><!--/.col-md-6.col-sm-12-->
+                </div><!--/.row-->
+                <!--## row end ##-->
+            </div>
+            <!--## content end ##-->
+
+        </main><!--/.page-content-->
+        <!--## page-content ends ##-->
+
+        <div class="bg_overlay"></div>
+    </div><!--/.page-wrapper-->
+    <script src="./../dist/main.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var i = -1;
+            var toastCount = 0;
+            var $toastlast;
+
+            var getMessage = function () {
+                var msgs = ['My name is Inigo Montoya. You killed my father. Prepare to die!',
+                    '<div><input class="input-small" value="textbox"/>&nbsp;<a href="http://johnpapa.net" target="_blank">This is a hyperlink</a></div><div><button type="button" id="okBtn" class="btn btn-primary">Close me</button><button type="button" id="surpriseBtn" class="btn" style="margin: 0 8px 0 8px">Surprise me</button></div>',
+                    'Are you the six fingered man?',
+                    'Inconceivable!',
+                    'I do not think that means what you think it means.',
+                    'Have fun storming the castle!'
+                ];
+                i++;
+                if (i === msgs.length) {
+                    i = 0;
+                }
+
+                return msgs[i];
+            };
+
+            var getMessageWithClearButton = function (msg) {
+                msg = msg ? msg : 'Clear itself?';
+                msg += '<br /><br /><button type="button" class="btn clear">Yes</button>';
+                return msg;
+            };
+
+            $('#closeButton').click(function() {
+                if($(this).is(':checked')) {
+                    $('#addBehaviorOnToastCloseClick').prop('disabled', false);
+                } else {
+                    $('#addBehaviorOnToastCloseClick').prop('disabled', true);
+                    $('#addBehaviorOnToastCloseClick').prop('checked', false);
+                }
+            });
+
+            $('#showtoast').click(function () {
+                var shortCutFunction = $("#toastTypeGroup input:radio:checked").val();
+                var msg = $('#message').val();
+                var title = $('#title').val() || '';
+                var $showDuration = $('#showDuration');
+                var $hideDuration = $('#hideDuration');
+                var $timeOut = $('#timeOut');
+                var $extendedTimeOut = $('#extendedTimeOut');
+                var $showEasing = $('#showEasing');
+                var $hideEasing = $('#hideEasing');
+                var $showMethod = $('#showMethod');
+                var $hideMethod = $('#hideMethod');
+                var toastIndex = toastCount++;
+                var addClear = $('#addClear').prop('checked');
+
+                toastr.options = {
+                    closeButton: $('#closeButton').prop('checked'),
+                    debug: $('#debugInfo').prop('checked'),
+                    newestOnTop: $('#newestOnTop').prop('checked'),
+                    progressBar: $('#progressBar').prop('checked'),
+                    rtl: $('#rtl').prop('checked'),
+                    positionClass: $('#positionGroup input:radio:checked').val() || 'toast-top-right',
+                    preventDuplicates: $('#preventDuplicates').prop('checked'),
+                    onclick: null
+                };
+
+                if ($('#addBehaviorOnToastClick').prop('checked')) {
+                    toastr.options.onclick = function () {
+                        alert('You can perform some custom action after a toast goes away');
+                    };
+                }
+
+                if ($('#addBehaviorOnToastCloseClick').prop('checked')) {
+                    toastr.options.onCloseClick = function () {
+                        alert('You can perform some custom action when the close button is clicked');
+                    };
+                }
+
+                if ($showDuration.val().length) {
+                    toastr.options.showDuration = parseInt($showDuration.val());
+                }
+
+                if ($hideDuration.val().length) {
+                    toastr.options.hideDuration = parseInt($hideDuration.val());
+                }
+
+                if ($timeOut.val().length) {
+                    toastr.options.timeOut = addClear ? 0 : parseInt($timeOut.val());
+                }
+
+                if ($extendedTimeOut.val().length) {
+                    toastr.options.extendedTimeOut = addClear ? 0 : parseInt($extendedTimeOut.val());
+                }
+
+                if ($showEasing.val().length) {
+                    toastr.options.showEasing = $showEasing.val();
+                }
+
+                if ($hideEasing.val().length) {
+                    toastr.options.hideEasing = $hideEasing.val();
+                }
+
+                if ($showMethod.val().length) {
+                    toastr.options.showMethod = $showMethod.val();
+                }
+
+                if ($hideMethod.val().length) {
+                    toastr.options.hideMethod = $hideMethod.val();
+                }
+
+                if (addClear) {
+                    msg = getMessageWithClearButton(msg);
+                    toastr.options.tapToDismiss = false;
+                }
+                if (!msg) {
+                    msg = getMessage();
+                }
+
+                $('#toastrOptions').text('Command: toastr["'
+                    + shortCutFunction
+                    + '"]("'
+                    + msg
+                    + (title ? '", "' + title : '')
+                    + '")\n\ntoastr.options = '
+                    + JSON.stringify(toastr.options, null, 2)
+                );
+
+                var $toast = toastr[shortCutFunction](msg, title); // Wire up an event handler to a button in the toast, if it exists
+                $toastlast = $toast;
+
+                if(typeof $toast === 'undefined'){
+                    return;
+                }
+
+                if ($toast.find('#okBtn').length) {
+                    $toast.delegate('#okBtn', 'click', function () {
+                        alert('you clicked me. i was toast #' + toastIndex + '. goodbye!');
+                        $toast.remove();
+                    });
+                }
+                if ($toast.find('#surpriseBtn').length) {
+                    $toast.delegate('#surpriseBtn', 'click', function () {
+                        alert('Surprise! you clicked me. i was toast #' + toastIndex + '. You could perform an action here.');
+                    });
+                }
+                if ($toast.find('.clear').length) {
+                    $toast.delegate('.clear', 'click', function () {
+                        toastr.clear($toast, { force: true });
+                    });
+                }
+            });
+
+            function getLastToast(){
+                return $toastlast;
+            }
+            $('#clearlasttoast').click(function () {
+                toastr.clear(getLastToast());
+            });
+            $('#cleartoasts').click(function () {
+                toastr.clear();
+            });
+        })
+    </script>
+</body>
+</html>

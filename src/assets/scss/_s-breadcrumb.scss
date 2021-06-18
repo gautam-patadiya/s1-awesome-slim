@@ -1,0 +1,66 @@
+.breadcrumb {
+    @extend .p-0;
+    background: transparent;
+
+    li {
+        color: #396aff;
+
+        &:after {
+            font-family: 'Line Awesome Free';
+            font-weight: 900;
+            color: #a3a6a9;
+            margin: 0 4px 0 6px;
+        }
+
+        &:last-child:after {
+            display: none;
+        }
+
+        a {
+            color: $gray_t2;
+
+            &:hover {
+                color: #396aff;
+            }
+        }
+
+        &.active{
+            color: $gray_t5;
+        }
+    }
+
+    &.style-1{
+        li{
+            &:after{
+                content: "\f105";
+            }
+
+            &.breadcrumb-item{
+                &:before{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &.style-2{
+        li{
+            &:after{
+                content: "\f061";
+            }
+
+            &.breadcrumb-item{
+                &:before{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .breadcrumb {
+        justify-content: flex-end;
+    }
+}

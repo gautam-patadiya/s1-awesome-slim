@@ -1,0 +1,44 @@
+.wizard-container.sw-theme-dots{
+    .nav li .nav-link.inactive.active{
+        color: $primary !important;
+
+        &:after{
+            background-color: $primary !important;
+        }
+    }
+
+    .nav li .nav-link.inactive{
+        color: $black-1 !important;
+    }
+}
+
+
+.wizard-container.sw-theme-default{
+    .nav{
+        background-color: white;
+
+        li{
+            margin: 0 8px;
+
+            .nav-link{
+                padding: .8rem 1rem .5rem 1rem;
+                &:after{
+                    top: 5px;
+                    height: 3px;
+                }
+            }
+        }
+    }
+
+    .nav li .nav-link.inactive.active{
+        color: $primary !important;
+
+        &:after {
+            background: $primary !important;
+        }
+    }
+
+    .nav li .nav-link.inactive{
+        color: $black-1 !important;
+    }
+}

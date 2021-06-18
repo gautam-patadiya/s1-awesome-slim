@@ -1,0 +1,123 @@
+.page-wrapper.s-theme.mini:not(.mbt) {
+    margin-left: $sidebar-mini-width;
+}
+
+header {
+    border-bottom: 1px solid;
+
+    .navbar-nav{
+        .nav-link{
+            align-items: center;
+            display: flex;
+            height: 100%;
+
+            &.dropdown-toggle:after{ display:none;}
+        }
+    }
+
+    .dropdown-item {
+        padding: 10px 20px;
+    }
+
+    .search {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .form-control {
+        box-shadow: none !important;
+    }
+
+    form.search {
+        .input-group .form-control {
+            border-right: none;
+        }
+
+        .btn {
+            background: transparent;
+            box-shadow: none;
+            border-left: none;
+        }
+    }
+}
+
+.sidebar-control {
+    display: flex;
+    padding: 10px 0;
+    text-align: center;
+
+    a {
+        display: inline-block;
+    }
+
+    .sidebar-toggler {
+        border: none;
+        position: relative;
+        right: 0;
+        top: 0;
+        height: 33px;
+        padding: 3px 13px 0 13px;
+
+        &:focus,
+        &:focus-within,
+        &:active {
+            outline: 0;
+        }
+
+        span {
+            display: block;
+            height: 3px;
+            width: 20px;
+            margin-top: 4px;
+            margin-bottom: 4px;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            position: relative;
+            left: 0;
+            opacity: 1;
+            padding: 0;
+            border: none;
+        }
+
+        span:nth-child(1),
+        span:nth-child(3) {
+            -webkit-transition: transform .35s ease-in-out;
+            -moz-transition: transform .35s ease-in-out;
+            -o-transition: transform .35s ease-in-out;
+            transition: transform .35s ease-in-out;
+            width: 25px;
+        }
+    }
+
+    #close-sidebar {
+        display: none;
+    }
+
+    #show-sidebar {
+        display: block;
+        position: static;
+        color: #595959;
+        font-size: 18px;
+    }
+}
+
+.toggled .sidebar-control #close-sidebar {
+    display: block;
+}
+
+.toggled .sidebar-control #show-sidebar {
+    display: none;
+}
+
+.profile.dropdown {
+    & > div {
+        min-width: 278px;
+
+        p {
+            padding: 0 30px;
+            margin: 0 0 5px 0;
+        }
+    }
+}
