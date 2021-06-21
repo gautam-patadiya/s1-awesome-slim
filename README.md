@@ -4,7 +4,7 @@ Awesome slim is the free bootstrap admin template. Simple and easy-to-use admin 
 Template has a unique design like none other, it is easily customizable to suit your requirements. Awesome slim comes with a clean and well-commented code that makes it easy to work with.
 
 ### Demo
-Click [here](#) to get a live preview.
+Click [here](https://s1-awesome-slim.demosea.in/) to get a live preview.
 
 ### Credits
 

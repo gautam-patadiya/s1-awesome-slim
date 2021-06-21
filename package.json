@@ -1,7 +1,7 @@
 {
-  "name": "s1-awesome-slim-html-admin-template",
+  "name": "s1-awesome-slim",
   "version": "1.0.0",
-  "description": "A light weight bootstrap html admin template",
+  "description": "Free admin dashboard template based on Bootstrap 4",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch"
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gautam-patadiya/s1-awesome-slim-html-admin-template"
+    "url": "https://github.com/gautam-patadiya/s1-awesome-slim"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
